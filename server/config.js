@@ -21,12 +21,12 @@
 module.exports = {
 
     // this this callback URL when creating your client ID and secret
-    callbackURL: process.env.FORGE_CALLBACK_URL || 'http://localhost:3000/api/forge/callback/oauth',
+    callbackURL: process.env.FORGE_CALLBACK_URL || 'https://forgetes.herokuapp.com/',
 
     // set enviroment variables or hard-code here
     credentials: {
-        client_id: process.env.FORGE_CLIENT_ID || '<replace with your consumer key>',
-        client_secret: process.env.FORGE_CLIENT_SECRET || '<replace with your consumer secret>'
+        client_id: process.env.FORGE_CLIENT_ID || 'Bd5S4iLhQl0Grbmr7TETpYlW2yYGkc8z',
+        client_secret: process.env.FORGE_CLIENT_SECRET || 'pUG6aro7kHKBWJQ6'
     },
 
     // Required scopes for your application on server-side
